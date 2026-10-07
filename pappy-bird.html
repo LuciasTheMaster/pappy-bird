@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pappy Bird</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100%;
+      background: #87ceeb;
+      font-family: Arial, sans-serif;
+    }
+
+    .game {
+      width: 100%;
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 0 12px;
+      box-sizing: border-box;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      height: auto;
+      border: 0;
+      border-radius: 12px;
+      background: #000;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 12px 0;
+      color: #fff;
+      text-shadow: 2px 2px 0 #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="game">
+    <h1>🐤 Pappy Bird 🏀</h1>
+
+    <iframe
+      src="https://www.instaplay.ai/embed/g/fc19d9bf"
+      allow="autoplay; fullscreen; gamepad *; pointer-lock; clipboard-write"
+      allowfullscreen
+      loading="lazy"
+      title="Pappy Bird">
+    </iframe>
+  </div>
+</body>
+</html>
